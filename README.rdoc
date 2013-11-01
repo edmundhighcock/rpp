@@ -1,6 +1,9 @@
 = rpp
 
-Description goes here.
+A general purpose ruby preprocessor. Files should end in .rpp.ext where ext is
+the extension of the output file. 
+
+
 
 == Contributing to rpp
  
