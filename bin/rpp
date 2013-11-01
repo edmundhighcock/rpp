@@ -1,0 +1,5 @@
+#!/bin/env ruby
+
+require 'rpp'
+
+Rpp.run(ARGV[-1])

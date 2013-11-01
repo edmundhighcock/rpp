@@ -1,7 +1,7 @@
 require 'helper'
 
 class TestRpp < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
-  end
+	def test_all
+		Rpp.run('test/testfile.rpp.tex')
+	end
 end
